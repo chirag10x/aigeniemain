@@ -1,4 +1,5 @@
 import { lazy } from "react";
+import { Analytics } from '@vercel/analytics/react';
 import IntroContent from "../../content/IntroContent.json";
 import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
@@ -56,7 +57,9 @@ const Home = () => {
         content={ContactContent.text}
         id="contact"
       />
+      <Analytics />
     </Container>
+
   );
 };
 
