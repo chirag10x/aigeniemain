@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logoimg from "../../../public/img/AIGENIE_LOGO.png";
 import { Row, Col, Drawer } from "antd";
 import { withTranslation, TFunction } from "react-i18next";
 import Container from "../../common/Container";
@@ -60,7 +59,6 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-          <img  src={logoimg} alt="AiGenie"/>
             <SvgIcon src="logo.svg" width="101px" height="64px" />
           </LogoContainer>
           <NotHidden>
