@@ -72,21 +72,21 @@ const Footer = ({ t }: { t: TFunction }) => {
             </Col>
           </Row>
           <Row justify="space-between">
-            <Col lg={10} md={10} sm={12} xs={12}>
+{/*             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
               <Para>Rancho Santa Margarita</Para>
               <Para>2131 Elk Street</Para>
               <Para>California</Para>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
+            </Col> */}
+{/*             <Col lg={8} md={8} sm={12} xs={12}>
               <Title>{t("Company")}</Title>
-              {/* <Large to="/">{t("About")}</Large>
+              <Large to="/">{t("About")}</Large>
               <Large to="/">{t("Blog")}</Large>
               <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large> */}
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
+              <Large to="/">{t("Careers & Culture")}</Large> 
+            </Col> */}
+{/*             <Col lg={6} md={6} sm={12} xs={12}>
               <Label htmlFor="select-lang">{t("Language")}</Label>
               <LanguageSwitchContainer>
                 <LanguageSwitch onClick={() => handleChange("en")}>
@@ -106,7 +106,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                   />
                 </LanguageSwitch>
               </LanguageSwitchContainer>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </FooterSection>
@@ -120,7 +120,7 @@ const Footer = ({ t }: { t: TFunction }) => {
             <NavLink to="/">
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
+                  src="AIGENIELOGO4.svg"
                   aria-label="homepage"
                   width="101px"
                   height="64px"
@@ -144,14 +144,14 @@ const Footer = ({ t }: { t: TFunction }) => {
                 href="https://medium.com/@lashakakabadze/"
                 src="medium.svg"
               /> */}
-              <a
+{/*               <a
                 href="https://ko-fi.com/Y8Y7H8BNJ"
                 target="_blank"
                 rel="noopener noreferrer"
               >
 
                 
-              </a>
+              </a> */}
             </FooterContainer>
           </Row>
         </Container>
