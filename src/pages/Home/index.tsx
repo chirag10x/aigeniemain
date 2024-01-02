@@ -21,7 +21,6 @@ const Home = () => {
         direction="right"
         title={IntroContent.title}
         content={IntroContent.text}
-        button={IntroContent.button}
         icon="homepage.png"
         id="intro"
       />
