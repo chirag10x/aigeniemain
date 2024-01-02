@@ -22,7 +22,7 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="homepage.jpeg"
+        icon="homepage.png"
         id="intro"
       />
 {/*       <MiddleBlock
